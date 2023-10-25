@@ -1,0 +1,17 @@
+C:\Users\Juniors\Desktop\inteliMatica\bin\x86\Release\net6.0-windows\inteliMatica.exe
+C:\Users\Juniors\Desktop\inteliMatica\bin\x86\Release\net6.0-windows\inteliMatica.deps.json
+C:\Users\Juniors\Desktop\inteliMatica\bin\x86\Release\net6.0-windows\inteliMatica.runtimeconfig.json
+C:\Users\Juniors\Desktop\inteliMatica\bin\x86\Release\net6.0-windows\inteliMatica.dll
+C:\Users\Juniors\Desktop\inteliMatica\bin\x86\Release\net6.0-windows\inteliMatica.pdb
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\net6.0-windows\inteliMatica.Form1.resources
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\net6.0-windows\inteliMatica.Properties.Resources.resources
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\net6.0-windows\inteliMatica.csproj.GenerateResource.cache
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\net6.0-windows\inteliMatica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\net6.0-windows\inteliMatica.AssemblyInfoInputs.cache
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\net6.0-windows\inteliMatica.AssemblyInfo.cs
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\net6.0-windows\inteliMatica.csproj.CoreCompileInputs.cache
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\net6.0-windows\inteliMatica.dll
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\net6.0-windows\refint\inteliMatica.dll
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\net6.0-windows\inteliMatica.pdb
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\net6.0-windows\inteliMatica.genruntimeconfig.cache
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\net6.0-windows\ref\inteliMatica.dll

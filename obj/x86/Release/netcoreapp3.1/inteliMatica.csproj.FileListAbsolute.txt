@@ -1,0 +1,7 @@
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\netcoreapp3.1\inteliMatica.Form1.resources
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\netcoreapp3.1\inteliMatica.Properties.Resources.resources
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\netcoreapp3.1\inteliMatica.csproj.GenerateResource.cache
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\netcoreapp3.1\inteliMatica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\netcoreapp3.1\inteliMatica.AssemblyInfoInputs.cache
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\netcoreapp3.1\inteliMatica.AssemblyInfo.cs
+C:\Users\Juniors\Desktop\inteliMatica\obj\x86\Release\netcoreapp3.1\inteliMatica.csproj.CoreCompileInputs.cache

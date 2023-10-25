@@ -1,0 +1,6 @@
+C:\Users\Juniors\Desktop\inteliMatica\obj\Release\net5.0-windows10.0.17763.0\inteliMatica.Form1.resources
+C:\Users\Juniors\Desktop\inteliMatica\obj\Release\net5.0-windows10.0.17763.0\inteliMatica.csproj.GenerateResource.cache
+C:\Users\Juniors\Desktop\inteliMatica\obj\Release\net5.0-windows10.0.17763.0\inteliMatica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juniors\Desktop\inteliMatica\obj\Release\net5.0-windows10.0.17763.0\inteliMatica.AssemblyInfoInputs.cache
+C:\Users\Juniors\Desktop\inteliMatica\obj\Release\net5.0-windows10.0.17763.0\inteliMatica.AssemblyInfo.cs
+C:\Users\Juniors\Desktop\inteliMatica\obj\Release\net5.0-windows10.0.17763.0\inteliMatica.csproj.CoreCompileInputs.cache
