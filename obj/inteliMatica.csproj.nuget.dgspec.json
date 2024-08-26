@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juniors\\Desktop\\inteliMatica\\inteliMatica.csproj": {}
+    "C:\\Users\\Juniors\\Desktop\\ejecutable\\exeDLL_100x100banco\\inteliMatica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juniors\\Desktop\\inteliMatica\\inteliMatica.csproj": {
+    "C:\\Users\\Juniors\\Desktop\\ejecutable\\exeDLL_100x100banco\\inteliMatica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juniors\\Desktop\\inteliMatica\\inteliMatica.csproj",
+        "projectUniqueName": "C:\\Users\\Juniors\\Desktop\\ejecutable\\exeDLL_100x100banco\\inteliMatica.csproj",
         "projectName": "inteliMatica",
-        "projectPath": "C:\\Users\\Juniors\\Desktop\\inteliMatica\\inteliMatica.csproj",
+        "projectPath": "C:\\Users\\Juniors\\Desktop\\ejecutable\\exeDLL_100x100banco\\inteliMatica.csproj",
         "packagesPath": "C:\\Users\\Juniors\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juniors\\Desktop\\inteliMatica\\obj\\",
+        "outputPath": "C:\\Users\\Juniors\\Desktop\\ejecutable\\exeDLL_100x100banco\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

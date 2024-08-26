@@ -12,6 +12,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="inter_printer_dll_v2">
+      <HintPath>..\..\inter_printer_dll_v2_MAESTRO\bin\Debug\inter_printer_dll_v2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

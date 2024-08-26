@@ -1,0 +1,42 @@
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\bin\x86\Debug\net7.0-windows\inteliPrinterExe.exe
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\bin\x86\Debug\net7.0-windows\inteliPrinterExe.deps.json
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\bin\x86\Debug\net7.0-windows\inteliPrinterExe.runtimeconfig.json
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\bin\x86\Debug\net7.0-windows\inteliPrinterExe.dll
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\bin\x86\Debug\net7.0-windows\inteliPrinterExe.pdb
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\bin\x86\Debug\net7.0-windows\inter_printer_dll_v2.dll
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\bin\x86\Debug\net7.0-windows\inter_printer_dll_v2.pdb
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.csproj.AssemblyReference.cache
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliMatica.Form1.resources
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.Properties.Resources.resources
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.csproj.GenerateResource.cache
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.AssemblyInfoInputs.cache
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.AssemblyInfo.cs
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.csproj.CoreCompileInputs.cache
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.csproj.CopyComplete
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.dll
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\refint\inteliPrinterExe.dll
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.pdb
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.genruntimeconfig.cache
+C:\Users\Juniors\Desktop\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\ref\inteliPrinterExe.dll
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\bin\x86\Debug\net7.0-windows\inteliPrinterExe.exe
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\bin\x86\Debug\net7.0-windows\inteliPrinterExe.deps.json
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\bin\x86\Debug\net7.0-windows\inteliPrinterExe.runtimeconfig.json
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\bin\x86\Debug\net7.0-windows\inteliPrinterExe.dll
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\bin\x86\Debug\net7.0-windows\inteliPrinterExe.pdb
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\bin\x86\Debug\net7.0-windows\inter_printer_dll_v2.dll
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\bin\x86\Debug\net7.0-windows\inter_printer_dll_v2.pdb
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.csproj.AssemblyReference.cache
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliMatica.Form1.resources
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.Properties.Resources.resources
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.csproj.GenerateResource.cache
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.AssemblyInfoInputs.cache
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.AssemblyInfo.cs
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.csproj.CoreCompileInputs.cache
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.csproj.CopyComplete
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.dll
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\refint\inteliPrinterExe.dll
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.pdb
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\inteliPrinterExe.genruntimeconfig.cache
+C:\Users\Juniors\Desktop\POINTMAN - 100x100\ejecutable\exeDLL_100x100banco\obj\x86\Debug\net7.0-windows\ref\inteliPrinterExe.dll

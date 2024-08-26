@@ -28,125 +28,174 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox_line4 = new System.Windows.Forms.TextBox();
-            this.textBox_compare = new System.Windows.Forms.TextBox();
-            this.textBox_line2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox_result = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            txt_texto1 = new TextBox();
+            txt_pan = new TextBox();
+            txt_texto2 = new TextBox();
+            button1 = new Button();
+            button2 = new Button();
+            textBox_result = new TextBox();
+            lbl_txt_pan = new Label();
+            lbl_txt1 = new Label();
+            lbl_txt2 = new Label();
+            openFileDialog1 = new OpenFileDialog();
+            txt_texto3 = new TextBox();
+            lbl_txt3 = new Label();
+            txt_texto4 = new TextBox();
+            lbl_txt4 = new Label();
+            SuspendLayout();
             // 
-            // textBox_line4
+            // txt_texto1
             // 
-            this.textBox_line4.Location = new System.Drawing.Point(225, 76);
-            this.textBox_line4.Name = "textBox_line4";
-            this.textBox_line4.Size = new System.Drawing.Size(304, 27);
-            this.textBox_line4.TabIndex = 0;
+            txt_texto1.Location = new Point(225, 76);
+            txt_texto1.Name = "txt_texto1";
+            txt_texto1.Size = new Size(303, 27);
+            txt_texto1.TabIndex = 0;
             // 
-            // textBox_compare
+            // txt_pan
             // 
-            this.textBox_compare.Location = new System.Drawing.Point(225, 24);
-            this.textBox_compare.Name = "textBox_compare";
-            this.textBox_compare.Size = new System.Drawing.Size(304, 27);
-            this.textBox_compare.TabIndex = 20;
+            txt_pan.Location = new Point(225, 24);
+            txt_pan.Name = "txt_pan";
+            txt_pan.Size = new Size(303, 27);
+            txt_pan.TabIndex = 20;
             // 
-            // textBox_line2
+            // txt_texto2
             // 
-            this.textBox_line2.Location = new System.Drawing.Point(225, 126);
-            this.textBox_line2.Name = "textBox_line2";
-            this.textBox_line2.Size = new System.Drawing.Size(304, 27);
-            this.textBox_line2.TabIndex = 23;
+            txt_texto2.Location = new Point(225, 125);
+            txt_texto2.Name = "txt_texto2";
+            txt_texto2.Size = new Size(303, 27);
+            txt_texto2.TabIndex = 23;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(640, 28);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 29);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "Imprimir";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.Location = new Point(995, 29);
+            button1.Name = "button1";
+            button1.Size = new Size(125, 29);
+            button1.TabIndex = 24;
+            button1.Text = "Imprimir";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(640, 74);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(125, 29);
-            this.button2.TabIndex = 25;
-            this.button2.Text = "Descartar";
-            this.button2.UseVisualStyleBackColor = true;
+            button2.Location = new Point(995, 87);
+            button2.Name = "button2";
+            button2.Size = new Size(125, 29);
+            button2.TabIndex = 25;
+            button2.Text = "Descartar";
+            button2.UseVisualStyleBackColor = true;
             // 
             // textBox_result
             // 
-            this.textBox_result.Location = new System.Drawing.Point(225, 260);
-            this.textBox_result.Multiline = true;
-            this.textBox_result.Name = "textBox_result";
-            this.textBox_result.Size = new System.Drawing.Size(304, 95);
-            this.textBox_result.TabIndex = 26;
+            textBox_result.Location = new Point(225, 448);
+            textBox_result.Multiline = true;
+            textBox_result.Name = "textBox_result";
+            textBox_result.Size = new Size(303, 95);
+            textBox_result.TabIndex = 26;
             // 
-            // label1
+            // lbl_txt_pan
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(46, 31);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 20);
-            this.label1.TabIndex = 27;
-            this.label1.Text = "Número de PAN :";
+            lbl_txt_pan.AutoSize = true;
+            lbl_txt_pan.Location = new Point(46, 35);
+            lbl_txt_pan.Name = "lbl_txt_pan";
+            lbl_txt_pan.Size = new Size(91, 20);
+            lbl_txt_pan.TabIndex = 27;
+            lbl_txt_pan.Text = "TEXTO PAN :";
             // 
-            // label2
+            // lbl_txt1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(46, 83);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(139, 20);
-            this.label2.TabIndex = 28;
-            this.label2.Text = "Nombre del titular :";
+            lbl_txt1.AutoSize = true;
+            lbl_txt1.Location = new Point(46, 87);
+            lbl_txt1.Name = "lbl_txt1";
+            lbl_txt1.Size = new Size(64, 20);
+            lbl_txt1.TabIndex = 28;
+            lbl_txt1.Text = "TEXTO 1";
             // 
-            // label3
+            // lbl_txt2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(50, 133);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(135, 20);
-            this.label3.TabIndex = 29;
-            this.label3.Text = "Código de oficina :";
+            lbl_txt2.AutoSize = true;
+            lbl_txt2.Location = new Point(46, 136);
+            lbl_txt2.Name = "lbl_txt2";
+            lbl_txt2.Size = new Size(64, 20);
+            lbl_txt2.TabIndex = 29;
+            lbl_txt2.Text = "TEXTO 2";
+            // 
+            // openFileDialog1
+            // 
+            openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // txt_texto3
+            // 
+            txt_texto3.Location = new Point(225, 179);
+            txt_texto3.Name = "txt_texto3";
+            txt_texto3.Size = new Size(303, 27);
+            txt_texto3.TabIndex = 30;
+            // 
+            // lbl_txt3
+            // 
+            lbl_txt3.AutoSize = true;
+            lbl_txt3.Location = new Point(46, 189);
+            lbl_txt3.Name = "lbl_txt3";
+            lbl_txt3.Size = new Size(64, 20);
+            lbl_txt3.TabIndex = 31;
+            lbl_txt3.Text = "TEXTO 3";
+            // 
+            // txt_texto4
+            // 
+            txt_texto4.Location = new Point(225, 231);
+            txt_texto4.Name = "txt_texto4";
+            txt_texto4.Size = new Size(303, 27);
+            txt_texto4.TabIndex = 33;
+            // 
+            // lbl_txt4
+            // 
+            lbl_txt4.AutoSize = true;
+            lbl_txt4.Location = new Point(46, 241);
+            lbl_txt4.Name = "lbl_txt4";
+            lbl_txt4.Size = new Size(64, 20);
+            lbl_txt4.TabIndex = 34;
+            lbl_txt4.Text = "TEXTO 4";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(848, 592);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox_result);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox_line2);
-            this.Controls.Add(this.textBox_compare);
-            this.Controls.Add(this.textBox_line4);
-            this.Name = "Form1";
-            this.Text = "InteliMatica Demo Interacción";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1147, 592);
+            Controls.Add(lbl_txt4);
+            Controls.Add(txt_texto4);
+            Controls.Add(lbl_txt3);
+            Controls.Add(txt_texto3);
+            Controls.Add(lbl_txt2);
+            Controls.Add(lbl_txt1);
+            Controls.Add(lbl_txt_pan);
+            Controls.Add(textBox_result);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(txt_texto2);
+            Controls.Add(txt_pan);
+            Controls.Add(txt_texto1);
+            Name = "Form1";
+            Text = "InteliPOINTMAN Demo Interacción 100X100 BANCO";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private TextBox textBox_line4;
-        private TextBox textBox_compare;
-   
-        private TextBox textBox_line2;
+        private TextBox txt_texto1;
+        private TextBox txt_pan;
+
+        private TextBox txt_texto2;
         private Button button1;
         private Button button2;
         private TextBox textBox_result;
-        private Label label1;
-        private Label label2;
-        private Label label3;
-     
+        private Label lbl_txt_pan;
+        private Label lbl_txt1;
+        private Label lbl_txt2;
+        private OpenFileDialog openFileDialog1;
+        private TextBox txt_texto3;
+        private Label lbl_txt3;
+        private TextBox textBox1;
+        private Label lbl_txt4;
+        private TextBox txt_texto4;
     }
 }
