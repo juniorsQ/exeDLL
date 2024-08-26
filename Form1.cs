@@ -15,46 +15,18 @@ namespace inteliMatica
 
             txt_pan.Text = "PAN";
             txt_pan.ReadOnly = true;
-            txt_texto1.Text = "LIAM J QUINTANA ZAMBRANO";
-            txt_texto2.Text = "LIAM J QUINTANA ZAMBRANO";
-            txt_texto3.Text = "LIAM J QUINTANA ZAMBRANO";
-            txt_texto4.Text = "LIAM J QUINTANA ZAMBRANO";
+            txt_texto1.Text = "TEXTO 1 TEXTO 1";
+            txt_texto2.Text = "TEXTO 2 TEXTO 2";
+            txt_texto3.Text = "TEXTO 3 TEXTO 3";
+            txt_texto4.Text = "TEXTO 4 TEXTO 4";
 
 
         }
-        //   private const string dllPath = "C:\\Users\\Juniors\\Desktop\\POINTMAN - 100x100\\inter_printer_dll_v2\\bin\\Debug\\inter_printer_dll_v2.dll";
-
-
-        //public static extern string Imprimir(
-        //    string compare,
-        //    string line1,
-        //    string line2,
-        //    string line3,
-        //    string line4,
-        //    string line1FontName,
-        //    string line2FontName,
-        //    string line3FontName,
-        //    string line4FontName,
-        //    string line1FontSize,
-        //    string line1X,
-        //    string line1Y,
-        //    string line2FontSize,
-        //    string line2X,
-        //    string line2Y,
-        //    string line3FontSize,
-        //    string line3X,
-        //    string line3Y,
-        //    string line4FontSize,
-        //    string line4X,
-        //    string line4Y,
-        //    string P21,
-        //    string P22);
 
         private void button1_Click(object sender, EventArgs e)
         {
 
             // Define los parámetros de C#
-            //string compare = "6036440000011113333";
             string TextoObj = "";
             string TextoPan = "";
 
@@ -82,9 +54,6 @@ namespace inteliMatica
             string line4X = "120";
             string line4Y = "550";
 
-
-            //if (CamposNoVacios())
-            //{
 
             try
             {
@@ -125,23 +94,23 @@ namespace inteliMatica
                     this.textBox_result.Text = "Imprimiendo tarjeta... Por favor Espere!";
                     txt_pan.Text = result;
                     Thread.Sleep(2000);
-                    this.textBox_result.Text = "Impresión Exitosa!";
+                    this.textBox_result.Text = "Impresión Exitosa! " + result;
                     //LimpiarCampos();
                 }
                 else if (result == "-2")
                 {
-                    this.textBox_result.Text = "Tarjeta invalida";
+                    this.textBox_result.Text = "Tarjeta invalida " + result;
                     LimpiarCampos();
 
                 }
                 else if (result == "-4")
                 {
-                    this.textBox_result.Text = "No se consiguió la impresora";
+                    this.textBox_result.Text = "No se consiguió la impresora " + result;
                     LimpiarCampos();
                 }
                 else
                 {
-                    this.textBox_result.Text = "Error contacte al departamento de sistemas";
+                    this.textBox_result.Text = "Error contacte al departamento de sistemas " + result;
                     LimpiarCampos();
                 }
             }
@@ -151,18 +120,45 @@ namespace inteliMatica
                 MessageBox.Show("Se ha producido un error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Por favor, complete todos los campos antes de continuar.", "Campos Vacíos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            //}
 
         }
 
         private void LimpiarCampos()
         {
-            // Establece los valores de los TextBox en cadenas vacías
-            txt_texto1.Text = "";
+            txt_pan.Text = string.Empty;
+            //txt_texto1.Text = string.Empty;
+            //txt_texto2.Text = string.Empty;
+            //txt_texto3.Text = string.Empty;
+            //txt_texto4.Text = string.Empty;
+
+
+        }
+
+        private void btn_statusprinter_Click(object sender, EventArgs e)
+        {
+            String result = "";
+            result = inter_printer_dll_v2.getStatusPrint();
+            this.textBox_result.Text = "Estatus impresora: " + result;
+
+
+        }
+
+        private void btn_eject_Click(object sender, EventArgs e)
+        {
+            String result = inter_printer_dll_v2.getEjectCard();
+            this.textBox_result.Text = result;
+        }
+
+        private void btn_getPan_Click(object sender, EventArgs e)
+        {
+            String result = inter_printer_dll_v2.getPan();
+            this.textBox_result.Text = result;
+
+        }
+
+        private void btn_limpiarCampos_Click(object sender, EventArgs e)
+        {
+            LimpiarCampos();
         }
 
         //private bool CamposNoVacios()

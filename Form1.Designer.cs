@@ -32,7 +32,7 @@
             txt_pan = new TextBox();
             txt_texto2 = new TextBox();
             button1 = new Button();
-            button2 = new Button();
+            btn_getPan = new Button();
             textBox_result = new TextBox();
             lbl_txt_pan = new Label();
             lbl_txt1 = new Label();
@@ -42,6 +42,9 @@
             lbl_txt3 = new Label();
             txt_texto4 = new TextBox();
             lbl_txt4 = new Label();
+            btn_statusprinter = new Button();
+            btn_eject = new Button();
+            btn_limpiarCampos = new Button();
             SuspendLayout();
             // 
             // txt_texto1
@@ -75,14 +78,15 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // button2
+            // btn_getPan
             // 
-            button2.Location = new Point(995, 87);
-            button2.Name = "button2";
-            button2.Size = new Size(125, 29);
-            button2.TabIndex = 25;
-            button2.Text = "Descartar";
-            button2.UseVisualStyleBackColor = true;
+            btn_getPan.Location = new Point(995, 136);
+            btn_getPan.Name = "btn_getPan";
+            btn_getPan.Size = new Size(125, 29);
+            btn_getPan.TabIndex = 25;
+            btn_getPan.Text = "Leer PAN";
+            btn_getPan.UseVisualStyleBackColor = true;
+            btn_getPan.Click += btn_getPan_Click;
             // 
             // textBox_result
             // 
@@ -155,11 +159,44 @@
             lbl_txt4.TabIndex = 34;
             lbl_txt4.Text = "TEXTO 4";
             // 
+            // btn_statusprinter
+            // 
+            btn_statusprinter.Location = new Point(995, 83);
+            btn_statusprinter.Name = "btn_statusprinter";
+            btn_statusprinter.Size = new Size(125, 29);
+            btn_statusprinter.TabIndex = 35;
+            btn_statusprinter.Text = "Estatus ";
+            btn_statusprinter.UseVisualStyleBackColor = true;
+            btn_statusprinter.Click += btn_statusprinter_Click;
+            // 
+            // btn_eject
+            // 
+            btn_eject.Location = new Point(995, 189);
+            btn_eject.Name = "btn_eject";
+            btn_eject.Size = new Size(125, 29);
+            btn_eject.TabIndex = 36;
+            btn_eject.Text = "Expulsar tarjeta";
+            btn_eject.UseVisualStyleBackColor = true;
+            btn_eject.Click += btn_eject_Click;
+            // 
+            // btn_limpiarCampos
+            // 
+            btn_limpiarCampos.Location = new Point(995, 241);
+            btn_limpiarCampos.Name = "btn_limpiarCampos";
+            btn_limpiarCampos.Size = new Size(125, 29);
+            btn_limpiarCampos.TabIndex = 37;
+            btn_limpiarCampos.Text = "Limpiar Campos";
+            btn_limpiarCampos.UseVisualStyleBackColor = true;
+            btn_limpiarCampos.Click += btn_limpiarCampos_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1147, 592);
+            Controls.Add(btn_limpiarCampos);
+            Controls.Add(btn_eject);
+            Controls.Add(btn_statusprinter);
             Controls.Add(lbl_txt4);
             Controls.Add(txt_texto4);
             Controls.Add(lbl_txt3);
@@ -168,7 +205,7 @@
             Controls.Add(lbl_txt1);
             Controls.Add(lbl_txt_pan);
             Controls.Add(textBox_result);
-            Controls.Add(button2);
+            Controls.Add(btn_getPan);
             Controls.Add(button1);
             Controls.Add(txt_texto2);
             Controls.Add(txt_pan);
@@ -186,7 +223,7 @@
 
         private TextBox txt_texto2;
         private Button button1;
-        private Button button2;
+        private Button btn_getPan;
         private TextBox textBox_result;
         private Label lbl_txt_pan;
         private Label lbl_txt1;
@@ -197,5 +234,8 @@
         private TextBox textBox1;
         private Label lbl_txt4;
         private TextBox txt_texto4;
+        private Button btn_statusprinter;
+        private Button btn_eject;
+        private Button btn_limpiarCampos;
     }
 }
